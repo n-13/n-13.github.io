@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>n-13</title>
+</head>
+<body>
+    <h3>Scrolling to text bookmark</h3>
+    Save link to you bookmarks: <a href="javascript:{const uri=document.getSelection().toString()?%27#:~:text='+document.getSelection().toString():'';window.scrollTo(0,0);document.getSelection().empty();document.location.assign(document.location.toString()+uri);}">Bookmark link</a><br>
+    Select any text on the page and click this bookmark.<br>
+    New URL at browser's address string contains search text.
+</body>
+</html>
